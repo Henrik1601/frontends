@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+       <div class="from">
+        <h1>Login Form</h1>
+        <br>
+            Email <br>
+            <input type="email" name="email1" id="email1" placeholder="Enter email"><br><br>
+
+            Password: <br>
+            <input type="password" name="password1" id="password1" placeholder="Enter password"><br><br>
+
+         
+
+            <button type="submit" onclick="login();" >Submit</button>
+            <br><br>
+     
+    </div>
+    <div class="register">
+        <h1>Registaion Form</h1>
+        <br>
+            Fistname: <br>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter fistname"><br><br>
+
+            Lastname: <br>
+            <input type="text" name="lastname" id="lastname" placeholder="Enter lastname"><br><br>
+          
+
+            Email: <br>
+            <input type="email" name="email" id="email" placeholder="Enter  email"><br><br>
+            Password: <br>
+            <input type="password" name="password" id="password" placeholder="Enter password"><br><br>
+            <label>Gender</label>
+            <input type="radio" id="gender" name="gender" value="Male">
+              <label for="male">Male</label><br>
+              <input type="radio" id="gender" name="gender" value="Female">
+              <label for="css">Female</label><br>
+            <label>Languages Known</label>
+            <div id="itemForm">
+            <div class="item">
+            <input type="checkbox" id="English" name="English" value="English">
+            <label for="vehicle1"> English</label><br>
+        </div>
+        <div class="item">
+            <input type="checkbox" id="Tamil" name="Tamil" value="Tamil">
+            <label for="vehicle2"> Tamil</label><br>
+        </div>
+        <div class="item">
+            <input type="checkbox" id="Other" name="Other" value="Other">
+            <label for="vehicle3">Other</label><br><br>
+        </div>
+    </div>
+
+            <button type="submit" onclick="register();" >Submit</button>
+            <button type="submit" onclick="clear();" >clear</button>
+            <br><br>
+     
+    </div>
+ 
+        <script src="login.js"></script>
+    </body>
+</html>
